@@ -1,3 +1,5 @@
 find / -type f -size +1G 2>dev/null
 find / -type f -mtime -1 2>dev/null
 ps -ef | awk-F " " '{print $2}'
+x = mississippi
+grep -o "s" <<< "$x" | wc -l
