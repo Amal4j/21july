@@ -3,3 +3,4 @@ find / -type f -mtime -1 2>dev/null
 ps -ef | awk-F " " '{print $2}'
 x = indiianinaiopoisansii
 grep -o "s" <<< "$x" | wc -l
+x = missipissiinsiii
